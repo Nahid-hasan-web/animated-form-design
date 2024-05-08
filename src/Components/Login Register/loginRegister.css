@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: #FFFDF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;    flex-direction: column;    position: relative;
+}
+.leaf{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+.main_from{
+    width: 1000px;
+    height: 600px;
+    border: 2px solid #1BA601;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.form_slider{
+    width: 500px;
+    height: 596px;
+    background: #1aa601a3;
+    padding: 15px;
+
+
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: again linear .5s;
+}
+@keyframes again{
+    from{
+        left: 60%;
+    }to{
+        left: 0%;
+    }
+}
+.slideAnimate{
+    width: 500px;
+    height: 596px;
+    background: #1aa601a3;
+    padding: 15px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: go  linear   .5s;
+}
+@keyframes go{
+    from{
+        right: 60%;
+    }to{
+        right: 0%;
+    }
+}
+
+.logo_col{
+    width:48px ;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.form_text h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: black; 
+    text-align: center;
+}
+
+.form_text h5{
+    font-size: 30px;
+    font-weight: 500;
+    color: black; 
+    text-align: center;
+    margin-top: 20px;
+}
+.form_text p{
+    width: 320px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    color: black; 
+    margin:  20px auto 0;
+}
+
+
+.change_button_part{
+    margin-top: 100px;
+}
+.change_button{
+    width: 100%;
+    padding: 5px 20px;
+    background: #000;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+/* ==================== form css ============= */
+#login{
+    display: flex;
+    justify-content: end;
+}
+.main_form{
+    width: 440px;
+    padding: 40px;
+}
+.form_head h3{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #101828;
+    text-align: center;
+}
+.form_head p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #475467;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.main_form .form p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #344054;
+}
+.main_form .form input{
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: #667085;
+    padding-left: 14px;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options .rember{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap:8px ;
+}
+.options  .rember input {
+    width: 16px;
+}
+.options  .forgotPass {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #1BA601;
+}
+.main_form .form .submit_button{
+    width: 100%;
+    height: 44px;
+    border-radius: 8px;
+    background: #1BA601;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
